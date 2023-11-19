@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>03- gestion du menu et plus avec JavaScript</title>
+
+        <!-- Ajustement de la taille du viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!--Case à cocher-->
+        <input type="checkbox" id="cc-pour-bouton-burger" />
+
+        <div class="barre-menu">
+            <!-- Bouton burger-->
+            <label for="cc-pour-bouton-burger" class="bouton-burger"></label>
+            <nav class="menu">
+                <a href="#section1">Mission</a>
+                <a href="#section2">Instructeurs</a>
+                <a href="#section3">Cours</a>
+                <a href="#section4">Horaire</a>
+                <a href="#section5">Vidéos</a>
+                <a href="#section6">Équipement</a>
+                <a href="#section7">Contact</a>
+            </nav>
+        </div>
+
+        <main class="contenu">
+            <section id="section1">
+                <video autoplay loop
+                > <source src="videos/video-combat_3_1.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section id="section2">
+                <h2>Notre mission</h2>
+                <p> Novices curieux à experts novateurs en passant par des 
+                    enfants en soif de confiance et d’aventure ? Le centre 
+                    d’entrainement Crow vous offre un lieu où les rencontres de 
+                    toutes les générations sont le bienvenus. Nos programmes 
+                    sont personnalisés aussi bien pour les débutants que les 
+                    experts. 
+                </p>
+                <p>
+                    Nous offrons entre autres des cours de Muay Thai, de MMA, 
+                    de Jiu-Jitsu et de lutte, mais également des salles réservés pour 
+                    des entraînements individuels et des introductions aux arts 
+                    martiaux. 
+                </p>
+                <p>
+                    Nos instructeurs sont parmi les plus expérimentés et des plus 
+                    qualifiés au pays. Ils sont fiers d’offrir un suivi étroit à chaque 
+                    participant afin de mieux suivre leur développement. Que vous 
+                    soyez un combattant du week-end, un athlète professionnel ou 
+                    une personne à la recherche d’un programme de mise en 
+                    forme, le centre d’entraînement Crow offre une expérience 
+                    unique pour les athlètes de tous les niveaux qui veulent 
+                    atteindre leur plein potentiel en arts martiaux.
+                </p>
+               
+            </section>
+        </main>
+
+        <footer>
+            <ul id="confidentialites">
+                <li><a href="#">Politiques de confidentialités</a></li>
+                <li><a href="#">Confidentialités</a></li>
+                <li><a href="#">Confidentialités</a></li>
+            </ul>
+            <ul id="politique">
+                <li><a href="#">Politique</a></li>
+                <li><a href="#">Politique</a></li>
+            </ul>
+            <ul id="adresse">
+                <li><a href="#">Adresse</a></li>
+                <li><a href="#">Adresse</a></li>
+            </ul>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
